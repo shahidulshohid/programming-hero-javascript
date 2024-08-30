@@ -1,4 +1,4 @@
-const age = 42;
+// const age = 42;
 
 // if(age >= 18) {
 //     console.log('you can vote');
@@ -29,9 +29,9 @@ const age = 42;
 // }
 // console.log(price);
 
-// advance ternary 
-let price = 500;
-const isLeader = true;
+// // advance ternary 
+// let price = 500;
+// const isLeader = true;
 // if(isLeader === true){
 //     if(price > 1000){
 //         price = price/2;
@@ -46,7 +46,43 @@ const isLeader = true;
 
 // console.log(price);
 
-price = isLeader === true ? price > 1000 ? price /2 : 0 : price +100;
+// price = isLeader === true ? price > 1000 ? price /2 : 0 : price +100;
+// console.log(price);
+//==================================
+// let price = 500;
+// let isLeader = false;
+// if(isLeader === true){
+    // price = 0;
+// }
+// else {
+//     price = price + 100;
+// }
+// console.log(price);
+//  isLeader === true ? 0 : price = price + 400;
+//  console.log(price);
+//====================================
+//optional: semiAdvance ternary
+let price = 5000;
+let isLeader = false;
+if (isLeader = true){
+    if(price > 1000){
+        price = price / 2;
+    }
+    else {
+        price = 0
+    }
+}
+else {
+    price = price + 100;
+}
+// console.log(price);
+price = isLeader === true ? 0 : price = price + 100;
+price > 1000 ? price = price /2 : 0;
+// console.log(price);
+// price = isLeader === true ? price > 1000 ? price = price /2 : 0 : price = price + 100;
+// console.log(price);
+price = isLeader === true ? price > 1000 ? price = price /2 : 0 : price = price + 100 ;
 console.log(price);
+
 
 
