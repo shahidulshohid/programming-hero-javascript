@@ -77,28 +77,41 @@
 
 // 5 number task
 //============================
+let num1 = 30;
+let num2 = 20;
+// let result = 30;
 
-// 6 number task
-//==========================
-const age = 65;
-const ticket = 800;
-
-if(age < 10){
-    let ticket = 0;
-    console.log(ticket + " free for children");
-}
-else if(age > 10 && age < 20){
-    // will get discount 50%
-    let discount = ticket * 50 /100;
-    let payAmount = ticket - discount;
-    console.log(payAmount + " for students")
-}
-else if(age >= 60){
-    //will get 15%
-    let discount = ticket * 15 / 100;
-    let payAmount = ticket - discount;
-    console.log(payAmount + " for senior citizens");
+if(num1 > num2){
+    // result will be double of mum1 
+    result = num1 * 2;
+    console.log(result);
 }
 else {
-    console.log('you have to pay ' + ticket);
+    result = num1 + num2;
+    console.log(result);
 }
+
+// 6 number task
+// //==========================
+// const age = 65;
+// const ticket = 800;
+
+// if(age < 10){
+//     let ticket = 0;
+//     console.log(ticket + " free for children");
+// }
+// else if(age > 10 && age < 20){
+//     // will get discount 50%
+//     let discount = ticket * 50 /100;
+//     let payAmount = ticket - discount;
+//     console.log(payAmount + " for students")
+// }
+// else if(age >= 60){
+//     //will get 15%
+//     let discount = ticket * 15 / 100;
+//     let payAmount = ticket - discount;
+//     console.log(payAmount + " for senior citizens");
+// }
+// else {
+//     console.log('you have to pay ' + ticket);
+// }
