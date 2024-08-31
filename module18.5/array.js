@@ -43,4 +43,4 @@
 // console.log(Array.isArray(array));
 // console.log(Array.isArray(another))
 
-use apps.join() method for doing something;
+// use apps.join() method for doing something;
