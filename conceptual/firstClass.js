@@ -18,11 +18,35 @@
 // console.log(x ** 5);
 // console.log(x ** 3);
 
-//if else condition
+// //if else condition
+// var isRaining = false;
+// if(!isRaining){
+//     console.log('will not go outside');
+// }
+// else {
+//     console.log('will go outside')
+// }
+
+//ternary operator
+var isRaining = true;
+!isRaining ? console.log("will not go outside") : console.log("will go outside");
+
+//multiple condition
+var money = 20;
 var isRaining = false;
-if(!isRaining){
-    console.log('will not go outside');
+var taxi = 15;
+// if(isRaining === true && money >= taxi){
+//     console.log("will go outside");
+// }
+//  else {
+//     console.log("will not go outside");
+    
+//  }
+
+if(isRaining === true || money >= taxi){
+    console.log('will go to market');
 }
 else {
-    console.log('will go outside')
+    console.log('will not go to market');
+    
 }
