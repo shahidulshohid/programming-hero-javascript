@@ -13,9 +13,18 @@
 // touristPlace.pop();
 // console.log(touristPlace);
 
-// 3 number task
-const books = ['english', 'bangla', 'math', 'history', 'javascript'];
-console.log(books.includes('javascript')); //true;
-console.log(books.includes('biology')) //false;
+// // 3 number task
+// const books = ['english', 'bangla', 'math', 'history', 'javascript'];
+// console.log(books.includes('javascript')); //true;
+// console.log(books.includes('biology')) //false;
+
+// 4 number task
+const friends = ['islam', 'abul', 'mokbul', 'kobul'];
+const numbers = [];
+const fruits = '[]';
+console.log(Array.isArray(friends)); //true;
+console.log(Array.isArray(numbers)); //true;
+console.log(Array.isArray(fruits)); //false;
+
 
 
