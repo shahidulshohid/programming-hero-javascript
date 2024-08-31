@@ -8,4 +8,7 @@
 
 // use slice and splice 
 var bestFriend = ['shahidul', 'al-amin', 'setu', 'shakkhor', 'faruk', 'momin', 'mukter'];
-console.log(bestFriend.slice(2, 6))
+// console.log(bestFriend.slice(2, 6));
+console.log(bestFriend.splice(0, 3, 'mahmudullah'));
+console.log(bestFriend);
+
