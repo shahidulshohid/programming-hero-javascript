@@ -27,14 +27,14 @@
 //     console.log('will go outside')
 // }
 
-//ternary operator
-var isRaining = true;
-!isRaining ? console.log("will not go outside") : console.log("will go outside");
+// //ternary operator
+// var isRaining = true;
+// !isRaining ? console.log("will not go outside") : console.log("will go outside");
 
-//multiple condition
-var money = 20;
-var isRaining = false;
-var taxi = 15;
+// //multiple condition
+// var money = 20;
+// var isRaining = false;
+// var taxi = 15;
 // if(isRaining === true && money >= taxi){
 //     console.log("will go outside");
 // }
@@ -43,10 +43,25 @@ var taxi = 15;
     
 //  }
 
-if(isRaining === true || money >= taxi){
-    console.log('will go to market');
+// if(isRaining === true || money >= taxi){
+//     console.log('will go to market');
+// }
+// else {
+//     console.log('will not go to market');
+    
+// }
+
+var money = 10;
+if(money >= 100){
+    console.log('birani khabo');
+}
+else if(money >= 50){
+    console.log('noodles khabo');
+}
+else if(money >= 20){
+    console.log('singara khabo');
 }
 else {
-    console.log('will not go to market');
+    console.log('na kheye ato chore bari jabo');
     
 }
