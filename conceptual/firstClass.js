@@ -51,17 +51,34 @@
     
 // }
 
-var money = 10;
-if(money >= 100){
-    console.log('birani khabo');
+// var money = 10;
+// if(money >= 100){
+//     console.log('birani khabo');
+// }
+// else if(money >= 50){
+//     console.log('noodles khabo');
+// }
+// else if(money >= 20){
+//     console.log('singara khabo');
+// }
+// else {
+//     console.log('na kheye ato chore bari jabo');
+    
+// }
+
+// nestet if else 
+// =========================
+var isRaining = true;
+var isUmbrella = false;
+if(isRaining === true){
+    if(isUmbrella === true){
+        console.log('will go outside, i have my cata');
+    }
+    else {
+        console.log('will not go outside, cata nai');
+    }
 }
-else if(money >= 50){
-    console.log('noodles khabo');
-}
-else if(money >= 20){
-    console.log('singara khabo');
-}
-else {
-    console.log('na kheye ato chore bari jabo');
+else{
+    console.log("will go outside, it's sunny day");
     
 }
