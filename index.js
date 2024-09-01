@@ -29,22 +29,32 @@
 //   }
 // }
 
-//================================ two number
-const select = document.querySelector('select');
-const para = document.querySelector('p');
-select.addEventListener('change', weather);
-const temperature = 86;
-function weather (){
-    const choose = select.value;
-    if(choose === 'sunny'){
-        if(temperature < 86){
-            para.textContent = `It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`;
-        }
-        else if(temperature >= 86){
-            para.textContent = `It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`;
-        }
-    }
-    else {
-        para.textContent = `There is no set like this condition here like ======== ${choose}`
-    }
-}
+// //================================ two number
+// const select = document.querySelector('select');
+// const para = document.querySelector('p');
+// select.addEventListener('change', weather);
+// const temperature = 86;
+// function weather (){
+//     const choose = select.value;
+//     if(choose === 'sunny'){
+//         if(temperature < 86){
+//             para.textContent = `It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`;
+//         }
+//         else if(temperature >= 86){
+//             para.textContent = `It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`;
+//         }
+//     }
+//     else {
+//         para.textContent = `There is no set like this condition here like ======== ${choose}`
+//     }
+// }
+
+// another practice 
+const iceCreamVanOutside = true;
+const houseStatus = 'on fire'
+if (!(iceCreamVanOutside || houseStatus === "on fire")) {
+    console.log("Probably should just stay in then.");
+  } else {
+    console.log("You should leave the house quickly.");
+  }
+  
