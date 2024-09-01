@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1 class="heading"></h1>
-    <script src="index.js"></script>
-</body>
+    <style>
+      label {
+        font-size: 20px;
+        color: blue;
+        background: yellowgreen;
+        padding: 8px;
+        border-radius: 50px;
+      }
+      select {
+        color: white;
+        background:yellowgreen;
+        color: blue;
+        padding: 8px;
+        border-radius: 50px;
+      }
+      option {
+        background: black;
+        color: white;
+        margin: 10px 0;
+      }
+      p{
+        font-size: 26px;
+        color:black;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="">Select the Weather Type Today:</label>
+    <select name="" id="wather">
+      <option value="">Choose the weather</option>
+      <option value="sunny">Sunny</option>
+      <option value="rainy">Rainy</option>
+      <option value="snowing">Snowing</option>
+      <option value="overcast">Overcast</option>
+    </select>
+    <div>
+      <p></p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
