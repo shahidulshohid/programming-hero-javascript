@@ -14,4 +14,4 @@ numbers[0] = 40;
 console.log(numbers)//array is a changeable data type that's mean's mutable data type;
 console.log(district)
 district[0] = 'f';
-console.log(district)
+console.log(district)//it can not change, because it's a immutable data type. string is not changeable data type
