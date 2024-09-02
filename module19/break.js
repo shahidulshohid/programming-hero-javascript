@@ -18,13 +18,13 @@
 //     i++
 // }
 // console.log('Life after break up');
-// again 
-//===============================
-let i = 54;
-while(i > 25){
-    console.log(i);
-    if(i < 50){
-        break;
-    }
-    i--
-}
+// // again 
+// //===============================
+// let i = 54;
+// while(i > 25){
+//     console.log(i);
+//     if(i < 50){
+//         break;
+//     }
+//     i--
+// }
