@@ -88,11 +88,36 @@
 //============================
 // ### Task-2: 
 // Count how many times a string has the letter `a` or `A`
-let myString = "Apple And banana";
-let sum = 0;
-for(let i = 0; i < myString.length; i++){
-    if(myString[i] === 'a' || myString[i] === 'A'){
-        sum++
+// let myString = "Apple And banana";
+// let sum = 0;
+// for(let i = 0; i < myString.length; i++){
+//     if(myString[i] === 'a' || myString[i] === 'A'){
+//         sum++
+//     }
+// } 
+// console.log(sum);
+//====================
+// ### Task-3: 
+
+// Check whether a string contains all the vowels `a`, `e`, `i`, `o`, `u` 
+    let vowels = ['a', 'e', 'i', 'o', 'u']
+    let country = 'bangladesh is my homeland'
+    let sum = 0;
+    for(let i = 0; i < country.length; i++){
+        if(vowels.includes(country[i])){
+            sum++
+        }
     }
-} 
-console.log(sum);
+    console.log(sum);
+    
+
+
+
+// ### Task-4: 
+// If a given string has either x, replace x by y. if the given string has X, replace it by Y.
+
+//     Hint: You should be able to check whether x or X exists. After that, search online how to replace a character in a string.
+
+// ---
+// ### Task-5:
+// Capitalize Every first Letter of each word in a String
