@@ -61,14 +61,38 @@
 // **Input:**
 // <br>
 
-let myObject = {
+// let myObject = {
 
-    name: 'John Doe',
-    age: 25,
-    city: 'Example City',
-    isStudent: true
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'Example City',
+//     isStudent: true
 
-};
-for(const key in myObject){
-    console.log(`key: ${key} | type: ${ typeof myObject[key]}`)
-}
+// };
+// for(const key in myObject){
+//     console.log(`key: ${key} | type: ${ typeof myObject[key]}`)
+// }
+//==============================
+// ### Task-1: 
+// Count how many times a string has the letter `a`
+// let myString = "Apple And banana";
+
+// let sum = 0;
+// for(let i = 0; i <= myString.length-1; i++){
+//     if(myString[i].toLowerCase() === "a"){
+//         sum++
+//     }
+    
+// }
+// console.log(`there are ${sum} letters a here`);
+//============================
+// ### Task-2: 
+// Count how many times a string has the letter `a` or `A`
+let myString = "Apple And banana";
+let sum = 0;
+for(let i = 0; i < myString.length; i++){
+    if(myString[i] === 'a' || myString[i] === 'A'){
+        sum++
+    }
+} 
+console.log(sum);
