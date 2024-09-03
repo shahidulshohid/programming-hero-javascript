@@ -1,20 +1,3 @@
-// const bottle = {
-//     brand:'apple',
-//     price:45,
-//     color:'white',
-//     isClean:'false'
-// }
-// const subject = {
-//     name:'biology',
-//     teacher:'anita mam',
-//     examDate: '30 january',
-//     chapters: ['first', 'second', 'third'],
-//     exam: {
-//         name:'final exam',
-//         marks:'100'
-//     }
-// }
-
 const person = {
     name:'sodor uddin',
     age:25,
@@ -34,4 +17,3 @@ const salary = person["salary"]
 console.log(salary);
 const favPlaces = person['fav places']
 console.log(favPlaces[0])
-
