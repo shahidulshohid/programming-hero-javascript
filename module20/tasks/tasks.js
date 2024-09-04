@@ -112,34 +112,40 @@
 //===================================
 // ### Task-4: 
 // If a given string has either x, replace x by y. if the given string has X, replace it by Y.
-const mixString = 'explain and eXplore'
-let result = '';
-for(let i = 0; i < mixString.length; i++){
-    if(mixString[i] === 'x'){
-        result += 'y'
-    }
-    else if(mixString[i] === 'X'){
-        result += 'Y'
-    }
-    else{
-        result += mixString[i]
-    }
-}
-console.log(result);
-
-
+// const mixString = 'explain and eXplore'
+// let result = '';
 // for(let i = 0; i < mixString.length; i++){
-//     console.log(mixString[i]);
-//     // if(x){
-//     //     console.log('y')
-//     // }
-    
+//     if(mixString[i] === 'x'){
+//         result += 'y'
+//     }
+//     else if(mixString[i] === 'X'){
+//         result += 'Y'
+//     }
+//     else{
+//         result += mixString[i]
+//     }
 // }
-
-
+// console.log(result);
 //     Hint: You should be able to check whether x or X exists. After that, search online how to replace a character in a string.
 //==================================
 
 // ---
 // ### Task-5:
 // Capitalize Every first Letter of each word in a String
+// let firstString = 'bangladesh is my home land';
+// let words = firstString.split(' ')
+// for(let i = 0; i < words.length; i++){
+//     words[i] = words[i][0].toUpperCase() + words[i].slice(1)
+// }
+// console.log(words);
+let firstString = 'bangladesh is my home land';
+let words = firstString.split(' ')
+let result = ''
+for(let i = 0; i < words.length; i++){
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1)
+}
+result = words.join(' ');
+console.log(result);
+
+
+
