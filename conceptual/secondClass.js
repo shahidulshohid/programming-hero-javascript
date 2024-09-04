@@ -25,12 +25,32 @@
 // const addFlowers = flowers.join(' ')
 // console.log(typeof addFlowers)
 //================================
-const string = "galap,joba,lili,shalpa";
-const convert = string.split(",")
-console.log(convert)
-// console.log(typeof convert);
-console.log(Array.isArray(convert))
-
+// const string = "galap,joba,lili,shalpa";
+// const convert = string.split(",")
+// console.log(convert)
+// // console.log(typeof convert);
+// console.log(Array.isArray(convert))
+//=========================================
+// const flowers = ['galap', 'joba', 'lili', 'shalpa'];
+// for(let i = flowers.length -1; i >= 0; i--){
+//     console.log(flowers[i])
+// }
+//==============================
+// for(let i = 1; i <= 5; i++){
+//     console.log('i am for loop', i);
+//     for(let j = 1; j <= 5; j++){
+//         console.log('i am nested loop', j);
+//     }
+    
+// }
+//==============================
+// problem solve
+const numbers = [1,2,3,4,5,]
+let sum = 0;
+for(let i = 0; i <= numbers.length; i++){
+    sum += i;
+}
+console.log(sum);
 
 
 
