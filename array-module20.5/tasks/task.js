@@ -43,15 +43,30 @@
 // `[12, 98, 78, 46]`
 //==========================
 // for loop
+// const numbers = [12, 98, 5, 41, 23, 78, 46];
+// const newNumbers = [];
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i] % 2 === 0){
+//         const num = numbers[i];
+//         newNumbers.push(num)
+//     }
+// }
+// console.log(newNumbers);
+//=========================
+// while loop
 const numbers = [12, 98, 5, 41, 23, 78, 46];
 const newNumbers = [];
-for(let i = 0; i < numbers.length; i++){
+let i = 0;
+while(i < numbers.length){
     if(numbers[i] % 2 === 0){
         const num = numbers[i];
         newNumbers.push(num)
     }
+    i ++
 }
 console.log(newNumbers);
+
+
 
 
 
