@@ -45,12 +45,73 @@
 // }
 //==============================
 // problem solve
-const numbers = [1,2,3,4,5,]
-let sum = 0;
-for(let i = 0; i <= numbers.length; i++){
-    sum += i;
+// const numbers = [1,2,3,4,5,]
+// let sum = 0;
+// for(let i = 0; i <= numbers.length; i++){
+//     sum += i;
+// }
+// console.log(sum);
+//===============
+// for(const item of numbers){
+//     sum += item
+// }
+// console.log(sum);
+//======================
+const numbers = [5,2,3,4,5,6,7,8,9]
+let events = [];
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i] % 2 === 0){
+//         events.push(numbers[i]);
+        
+//     }
+// }
+// console.log(events);
+//=================
+// for(const item of numbers){
+//     if(item % 2 === 0){
+//         events.push(item)
+//     }
+// }
+// console.log(events);
+//=========================
+// object practice
+const person = {
+    name: 'shahdiul', 
+    address: 'khadash',
+    profession: 'developer'
 }
-console.log(sum);
+// person.name = 'islam',
+// person.age = 32,
+// delete person.address,
+const keys = Object.keys(person)
+const values = Object.values(person)
+console.log(keys)
+console.log(values)
+//=====================
+// break practice 
+// const x = [1,2,3,4,5,6,7,8];
+// for(let i = 0; i < x.length; i++){
+//     console.log(x[i]);
+//     if(x[i] === 5){
+//         break;
+        
+//     }
+//     console.log(x[i]);
+    
+// }
+// continue practice 
+// const x = [1,2,3,4,5,6,7,8];
+// for(let i = 0; i < x.length; i++){
+//     if(x[i] === 5){
+//         continue;
+        
+//     }
+//     console.log(x[i]);
+    
+// }
+
+
+
 
 
 
