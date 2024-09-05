@@ -75,18 +75,18 @@ let events = [];
 // console.log(events);
 //=========================
 // object practice
-const person = {
-    name: 'shahdiul', 
-    address: 'khadash',
-    profession: 'developer'
-}
+// const person = {
+//     name: 'shahdiul', 
+//     address: 'khadash',
+//     profession: 'developer'
+// }
 // person.name = 'islam',
 // person.age = 32,
 // delete person.address,
-const keys = Object.keys(person)
-const values = Object.values(person)
-console.log(keys)
-console.log(values)
+// const keys = Object.keys(person)
+// const values = Object.values(person)
+// console.log(keys)
+// console.log(values)
 //=====================
 // break practice 
 // const x = [1,2,3,4,5,6,7,8];
@@ -109,10 +109,4 @@ console.log(values)
 //     console.log(x[i]);
     
 // }
-
-
-
-
-
-
 
