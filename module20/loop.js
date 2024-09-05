@@ -25,6 +25,6 @@ const mobile = {
 // const person = new Object({name:"shaidul", profession:'devaelopr'})
 // console.log(person);
 //======================
-const car = Object.create({})
-console.log(car);
+// const car = Object.create({})
+// console.log(car);
 

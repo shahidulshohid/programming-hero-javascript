@@ -85,7 +85,7 @@
 // }
 // console.log(result);
 //==================
-//for loop
+// for loop
 // const numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
 // let result = "";
 // for(let i = 0; i < numbers.length; i++){
@@ -110,14 +110,14 @@
 // console.log(reverseStatement);
 
 //============================
-const statement = 'I am a hard working person'
-const newStatement = statement.split(' ');
-let makingStr = []
-// console.log(newStatement.reverse());
-for(let word of newStatement){
-    makingStr.unshift(word);
-}
-console.log(makingStr.join(' '));
+// const statement = 'I am a hard working person'
+// const newStatement = statement.split(' ');
+// let makingStr = []
+// // console.log(newStatement.reverse());
+// for(let word of newStatement){
+//     makingStr.unshift(word);
+// }
+// console.log(makingStr.join(' '));
 
 
 
