@@ -84,8 +84,29 @@
 //======================================
 // ### Task-4  
 // Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+// function count_zero(str){
+//     let sum = 0;
+//     for(let i = 0; i < str.length; i++){
+//         if(str[i] === '0'){
+//             sum += 1
+//         }
+//     }
+//     return sum;
+// }
+// const binaryStr = '000001111100000';
+// const result = count_zero(binaryStr)
+// console.log(result);
+//===================
 function count_zero(str){
-}
-const binaryStr = '000001111100000';
-const countBinaryStr = count_zero(binaryStr);
-console.log(countBinaryStr)
+    let sum = 0;
+        for(const item of str){
+            if(item === "0"){
+                sum++;
+            }
+        }
+        return sum;
+    }
+    const binaryStr = '000001111100000';
+    const result = count_zero(binaryStr)
+    console.log(result);
+
