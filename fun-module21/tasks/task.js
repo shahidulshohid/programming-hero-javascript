@@ -97,16 +97,31 @@
 // const result = count_zero(binaryStr)
 // console.log(result);
 //===================
-function count_zero(str){
-    let sum = 0;
-        for(const item of str){
-            if(item === "0"){
-                sum++;
-            }
-        }
-        return sum;
+// function count_zero(str){
+//     let sum = 0;
+//         for(const item of str){
+//             if(item === "0"){
+//                 sum++;
+//             }
+//         }
+//         return sum;
+//     }
+//     const binaryStr = '000001111100000';
+//     const result = count_zero(binaryStr)
+//     console.log(result);
+//=======================================
+// ### Task-5 
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return `Even`. If odd return `Odd`
+function odd_even(number){
+    if(number % 2 === 0){
+        return "Even";
     }
-    const binaryStr = '000001111100000';
-    const result = count_zero(binaryStr)
-    console.log(result);
+    else {
+        return "Odd";
+    }
+}
+const result1 = odd_even(50);
+const result2 = odd_even(55);
+console.log(`this number is ${result1}`)
+console.log(`this number is ${result2}`)
 
