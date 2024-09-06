@@ -50,11 +50,17 @@
 // }
 
 // another practice 
-const iceCreamVanOutside = true;
-const houseStatus = 'on fire'
-if (!(iceCreamVanOutside || houseStatus === "on fire")) {
-    console.log("Probably should just stay in then.");
-  } else {
-    console.log("You should leave the house quickly.");
-  }
+// const iceCreamVanOutside = true;
+// const houseStatus = 'on fire'
+// if (!(iceCreamVanOutside || houseStatus === "on fire")) {
+//     console.log("Probably should just stay in then.");
+//   } else {
+//     console.log("You should leave the house quickly.");
+//   }
+//=====================
+// use splice()
+// const array = ['shahidul','islam','ahomed','alamin','lolla', 'vlai']
+// const result = array.splice(1,2, 'huda', 'buda')
+// console.log('==================', array)
+// console.log(result)
   
