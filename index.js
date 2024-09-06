@@ -63,4 +63,9 @@
 // const result = array.splice(1,2, 'huda', 'buda')
 // console.log('==================', array)
 // console.log(result)
-  
+// What will happen when this function is called?
+
+function getMenu() {
+ console.log("Burger, Pizza, Pasta");
+}
+getMenu()
