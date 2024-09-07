@@ -65,7 +65,12 @@
 // console.log(result)
 // What will happen when this function is called?
 
-function getMenu() {
- console.log("Burger, Pizza, Pasta");
+// function getMenu() {
+//  console.log("Burger, Pizza, Pasta");
+// }
+// getMenu()
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+    console.log(i);
+ }, 100);
 }
-getMenu()
