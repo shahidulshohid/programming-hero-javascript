@@ -14,12 +14,15 @@ function monthlySavings(arr, livingCost) {
     }
   }
   let savings = totalIncome - livingCost;
- if(savings >= 0){
-    return savings;
- }
- else {
-    return 'learn more';
- }
+//  if(savings >= 0){
+//     return savings;
+//  }
+//  else {
+//     return 'learn more';
+//  }
+//  you can use it insteat of if else 
+return savings >= 0 ? savings : 'learn more'
+
 }
 console.log(monthlySavings([1000, 2000, 3000], 5400));
 console.log(monthlySavings([9000, 27000, 34000], 100000));
