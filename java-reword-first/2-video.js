@@ -3,13 +3,15 @@ function checkName(name){
         return 'invalid'
     }
     let lastLetter = name.slice(-1).toLowerCase();
-    let result = false;
     const checkArray = ['a', 'y', 'i', 'e', 'o', 'u', 'w'];
+    let result = false;
     for(const char of checkArray){
         if(char === lastLetter){
             result = true;
         }
     }
+    // // another exaple this line
+    // const result = checkArray.includes(lastLetter)
     return result ? 'Good Name' : "Bad Name" ;
     
     
