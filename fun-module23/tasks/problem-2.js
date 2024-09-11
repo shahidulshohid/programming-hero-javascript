@@ -2,6 +2,7 @@
 // Find the friend with the smallest name.
 // <br>
 // `const heights2 = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];`
+
 function findSmallestFriend(arr){
     let smallestFriend = arr[0];
     for(const name of arr){
