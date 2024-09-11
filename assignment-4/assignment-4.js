@@ -1,4 +1,4 @@
-// problem solve 1==============================================================
+
 function calculateTax(income, expenses) {
   if (income < expenses || expenses < 0) {
     return "Invalid Input";
@@ -9,7 +9,7 @@ function calculateTax(income, expenses) {
   return tax;
 }
 
-// problem solve 2===========================================================================
+
 function sendNotification(email) {
   if(email.includes('@') === false){
       return  "Invalid Email"
@@ -18,10 +18,11 @@ function sendNotification(email) {
   const userName = str[0];
   const domainName = str[1];
   const notification = userName + " sent you an email from " + domainName;
+  
   return notification;
 }
 
-// problem solve 3====================================================================
+
 function checkDigitsInName(name) {
   if(typeof name !== 'string'){
     return 'Invalid Input'
@@ -34,7 +35,6 @@ function checkDigitsInName(name) {
 return false
 }
 
-// problem solve 4==================================================
 
 function calculateFinalScore(obj) {
   if(typeof obj !== 'object'){
@@ -54,7 +54,6 @@ function calculateFinalScore(obj) {
     }
 }
 
-// problem solve 5=================================================================
 function  waitingTime(waitingTimes  , serialNumber) {
   if(!Array.isArray(waitingTimes) || typeof serialNumber !== 'number'){
     return 'Invalid Input'
@@ -64,10 +63,10 @@ function  waitingTime(waitingTimes  , serialNumber) {
     sum = sum + num;
   }
   let average = Math.round(sum / waitingTimes.length)
-  const remainingMan = serialNumber - 1 - waitingTimes.length;
+  const remainingMan = (serialNumber - 1) - waitingTimes.length;
   const waitingTime = average * remainingMan;
 
   return waitingTime;
 }
-console.log(waitingTime([7, 8, 3, 4, 5], "9"));
+
 
