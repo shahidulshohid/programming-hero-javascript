@@ -15,9 +15,9 @@ function cheapestObject(phones){
     }
     return min;
 }
-// const cheap = cheapestObject(phones)
-// console.log(cheap)
-//=======================
+const cheap = cheapestObject(phones)
+console.log(cheap)
+// =======================
 // figure out max object
 function getMax(phones){
     let max = phones[0] 
